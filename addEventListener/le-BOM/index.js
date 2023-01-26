@@ -8,11 +8,7 @@ changer.addEventListener("click", fChanger);
 fermer.addEventListener("click", fFermer);
 
 function fOuvrir() {
-  fenetre = window.open(
-    "https://developer.mozilla.org/fr/",
-    "_blank",
-    "width = 500"
-  );
+  fenetre = window.open("https://www.agence2web.com/", "_blank", "width = 500");
 }
 function fChanger() {
   fenetre.resizeTo(300, 300);
